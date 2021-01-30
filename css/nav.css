@@ -1,0 +1,52 @@
+ul, ol { 
+	list-style: none;
+}
+
+.nav li a{
+	 background-color: rgb(46, 44, 44); 
+	color: white;
+	text-decoration: none;
+	padding: 10px, 15px;
+	display: block;
+	margin: 15px;
+	
+}
+.nav>li{
+	float:left;
+}
+.nav li a:hover{
+	background-color: rgb(8, 8, 8) ;
+	
+}
+
+/* Esconder los submenus */
+ .nav li ul{
+	display:none;
+	position:absolute;
+	min-width: 140px;
+} 
+/* Mostrar los submenus al pasar el ratón */
+.nav li:hover > ul{
+	display:block;
+} 
+ .nav li ul li {
+	position: relative;
+}
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+} 
+
+#header{
+margin-top: 4%;
+margin-left: 10%; 
+
+
+
+}
+
+.nav{
+	font-size: 1.2em;
+	
+	
+}

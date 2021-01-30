@@ -1,0 +1,34 @@
+ .main h1{
+    border-bottom-style:solid;
+    margin-left: 5%;
+}
+
+.libro{
+    /* background-color: purple; */
+    width: 80%;
+    height: 35%;
+    margin-top: 20px;
+    margin-left: 10%;
+    border:ridge;
+    background-size: cover;
+
+
+}
+.poesia{
+    object-position: center;
+    width: 15%;
+    height:100%;
+    
+}
+.box-text{
+    /* background-color: burlywood; */
+    width: 80%;
+    height: 100%;
+    margin-right: 25px;
+    float: right;
+}
+  .titulo{
+    text-decoration: underline grey;
+    margin-left: 20%;
+    margin-top: 10px;
+}
