@@ -3,7 +3,7 @@
     height: 75%;
     /* display: flex; */
     
-    /* background-color: chartreuse; */
+    background-image: url("img/fondo1.jpg") ;
 
 
 }
@@ -54,8 +54,8 @@ float:right;
     margin-left: 105%;
 
 }
-.texto2 > p{
-    /* background-color: cadetblue; */
+.texto2 {
+     /* background-color: cadetblue;  */
     width: 60%;
     height: 60%;
     margin-left: 20%;
