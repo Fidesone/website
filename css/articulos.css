@@ -6,6 +6,8 @@
     margin-left: 10%;
     border:ridge;
     background-size: cover;
+    text-align: justify;
+    
     
 
 }
@@ -16,6 +18,7 @@
     width: 100%;
     height: 20%;
     display: flex;
+    margin-bottom: -30px;
 }
 .subtitulo{
     
@@ -32,11 +35,20 @@
     margin-left: 50px;
 }
 .texto-ar{
-    margin-top: -30px;
-    margin-left: 20px;
+    
+    display: inline;
 }
 .link-periodico{
-    margin-top: 20px;
+    margin-left: 10px;
+    display: inline;
     
     
+}
+.foto-art{
+    margin-top:8% ;
+    margin-left: 15px;
+    object-position: center;
+    width: 15%;
+    
+
 }

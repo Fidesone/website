@@ -3,7 +3,7 @@ ul, ol {
 }
 
 .nav li a{
-	 background-color: rgb(46, 44, 44); 
+	background-color: rgb(46, 44, 44); 
 	color: white;
 	text-decoration: none;
 	padding: 10px, 15px;
@@ -50,3 +50,4 @@ margin-left: 10%;
 	
 	
 }
+
