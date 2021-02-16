@@ -1,54 +1,43 @@
-.articulos{
-    background-color: #fff; 
+.articulos {
+    background-color: #fff;
     width: 70%;
     height: 30%;
     margin-top: 20px;
     margin-left: 10%;
-    border:ridge;
+    border: ridge;
     background-size: cover;
     text-align: justify;
-    
-    
-
 }
-.recuadrotop{
+.recuadrotop {
     margin-top: 20px;
-    border-top-style:ridge;
+    border-top-style: ridge;
     border-width: 4px;
     width: 100%;
     height: 20%;
     display: flex;
     margin-bottom: -30px;
 }
-.subtitulo{
-    
+.subtitulo {
     display: inline;
-    
 }
-.titulo-articulo{
-    
+.titulo-articulo {
     display: inline;
     font-weight: bold;
 }
-.box-titulo{
+.box-titulo {
     margin-top: 20px;
     margin-left: 50px;
 }
-.texto-ar{
-    
+.texto-ar {
     display: inline;
 }
-.link-periodico{
+.link-periodico {
     margin-left: 10px;
     display: inline;
-    
-    
 }
-.foto-art{
-    margin-top:5% ;
+.foto-art {
+    margin-top: 5%;
     margin-left: 15px;
     object-position: center;
     width: 15%;
-    
-
 }
