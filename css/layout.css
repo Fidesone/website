@@ -3,3 +3,13 @@
     height: 15rem;
     display: flex;
 }
+
+.section-footer {
+    width: 100vw;
+    height: 12rem;
+}
+
+.main {
+    background-image: url("../img/castillo-calatrava-viejo.jpg");
+    background-size: cover;
+}

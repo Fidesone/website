@@ -1,0 +1,137 @@
+/* Navbar component */
+/* Header, logo y titulo */
+.section-header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	background-color: rgb(46, 127, 129);
+}
+
+.section-header__img-box {
+	height: 15rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.section-header__img {
+	width: 40%;
+	margin-right: 4rem;
+}
+
+/* Header navbar */
+.section-header__navbar {
+	flex: 0 0 60%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.section-header__items {
+	height: 7rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.section-header__items:last-child {
+	margin-right: 1.5rem;
+}
+
+.section-header__item {
+	font-size: 1.8rem;
+	padding: 0.5rem 1rem;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.section-header__item:hover {
+	background-color: rgb(56, 155, 156, 0.8);
+}
+
+.section-header__link,
+.section-header__link:active {
+	color: black;
+	text-decoration: none;
+}
+
+/* Dropdown menu */
+.section-header__item--submenu {
+	position: relative;
+}
+
+.section-header__item--dropdown {
+	padding: 1rem 1rem;
+	border-radius: 0;
+}
+
+.section-header__items--dropwdown {
+	display: flex;
+	flex-direction: column;
+	height: 20rem;
+	position: absolute;
+	top: 6.5rem;
+	left: 0;
+	display: none;
+	background-color: rgb(46, 127, 129);
+}
+
+.section-header__item--submenu:hover > .section-header__items--dropwdown {
+	display: flex;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 50em) {
+	.section-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.section-header__img-box {
+		height: 5rem;
+		width: 100%;
+	}
+
+	.section-header__img-box > h1 {
+		font-size: 1.6rem;
+		text-align: center;
+	}
+	.section-header__img-box > img {
+		height: 5rem;
+		width: 5rem;
+	}
+
+	.section-header__items {
+		height: 4rem;
+	}
+
+	.section-header__navbar {
+		flex: 0 0 40%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.section-header__items--dropwdown {
+		display: flex;
+		flex-direction: column;
+		height: 20rem;
+		position: absolute;
+		top: 4.5rem;
+		left: 0;
+		display: none;
+		background-color: rgb(46, 127, 129);
+	}
+}

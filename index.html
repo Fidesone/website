@@ -4,9 +4,10 @@
     <title>Libros</title>
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/section.css">
     <link rel="stylesheet" type="text/css" href="css/libros.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/articulos.css">
     <link rel="icon" type="image/png" href="img/higuera.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,11 +27,11 @@
                             Biografia
                         </a>
                     </li>
-                    <li class="section-header__item">
+                    <li class="section-header__item section-header__item--submenu">
                         <a class="section-header__link" href="libros.html">
                             Libros
                         </a>
-                        <!-- <ul>
+                        <ul class="section-header__items section-header__items--dropwdown">
                             <li class="section-header__item section-header__item--dropdown">
                                 <a class="section-header__link" href="libros.html#poesia">
                                     Poesia
@@ -50,7 +51,8 @@
                                 <a class="section-header__link" href="libros.html#ensayo">
                                     Ensayo
                                 </a>
-                        </ul> -->
+                            </li>
+                        </ul>
                     </li>
                     <li class="section-header__item">
                         <a class="section-header__link" href="articulo.html">
@@ -62,7 +64,6 @@
                             href="http://webs.ucm.es/BUCM/escritores/pedro_gonzalez_moreno/">
                             Blog
                         </a>
-
                     <li class="section-header__item">
                         <a class="section-header__link" href="">
                             Contacto
@@ -109,24 +110,18 @@
                 numerosos artículos periodísticos, y ha ejercido asiduamente la crítica literaria
                 tanto en libros colectivos como en revistas especializadas.</p>
         </div>
-        <div class="tres"> <img id="paisaje" src="img/recore1.jpg"></img></div>
+        <!-- <div class="tres"> <img id="paisaje" src="img/recore1.jpg"></img></div> -->
     </div>
 
 
     </div>
 
-
-
-
-
-
-    <footer>
-        <div class="foot">
-            <a href="#">Enlace de interes</a>
-            <img id="icon" src="img/nose.jpg"></img>
-            <a href="#">Enlace de interes</a>
+    <footer class="section-footer">
+        <div class="footer">
+            <a class="footer__link" href="#">Enlace de interes</a>
+            <!-- <img class="footer__img" src="img/castillo-calatrava.jpg"></img> -->
+            <a class="footer__link" href="#">Enlace de interes</a>
         </div>
-
     </footer>
 
 </body>
