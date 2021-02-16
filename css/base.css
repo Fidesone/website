@@ -1,0 +1,26 @@
+/* Reseteo generals */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* Font size a 62.5% es para setear el tamaño de unidades rem
+    el tamaño de letra por defecto son 16px y quiero que 1rem=10px 
+    para asi controlar mejor las unidades
+    Entonces 10px/16px=0.625 * 100 = 62.5%;
+    Ahora 1rem equivalen a 10px;
+    Es una unidad relativa asi que hace que la letra sea responsive al tamaño de letra
+    cuando se hace zooms por ejemplo.
+    */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
