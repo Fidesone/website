@@ -15,34 +15,63 @@
 </head>
 
 <body>
-    <header>
-        <div class="padre">
-            <div class="hijo"><img id="libro" src="img/higuera.png"></img></div>
-            <div id="titulo" class="hijo">
-                <h1>P.A. Gonzalez Moreno</h1>
+    <header class="header">
+        <div class="section-header">
+            <div class="section-header__img-box">
+                <img class="section-header__img" src="img/higuera.png"></img>
+                <h1 class="heading-1">P.A. Gonzalez Moreno</h1>
             </div>
-
-            <div id="header">
-                <ul class="nav">
-                    <li><a href="index.html">Biografia</a></li>
-                    <li><a href="libros.html">Libros</a>
-                        <ul>
-                            <li><a href="libros.html#poesia">Poesia</a></li>
-                            <li><a href="libros.html#novela">Novela</a></li>
-                            <li><a href="libros.html#viajes">Libro de viajes</a></li>
-                            <li><a href="libros.html#ensayo">Ensayo</a>
-
-
+            <div class="section-header__navbar">
+                <ul class="section-header__items">
+                    <li class="section-header__item">
+                        <a class="section-header__link" href="index.html">
+                            Biografia
+                        </a>
+                    </li>
+                    <li class="section-header__item section-header__item--submenu">
+                        <a class="section-header__link" href="libros.html">
+                            Libros
+                        </a>
+                        <ul class="section-header__items section-header__items--dropwdown">
+                            <li class="section-header__item section-header__item--dropdown">
+                                <a class="section-header__link" href="libros.html#poesia">
+                                    Poesia
+                                </a>
+                            </li>
+                            <li class="section-header__item section-header__item--dropdown">
+                                <a class="section-header__link" href="libros.html#novela">
+                                    Novela
+                                </a>
+                            </li>
+                            <li class="section-header__item section-header__item--dropdown">
+                                <a class="section-header__link" href="libros.html#viajes">
+                                    Libro de viajes
+                                </a>
+                            </li>
+                            <li class="section-header__item section-header__item--dropdown">
+                                <a class="section-header__link" href="libros.html#ensayo">
+                                    Ensayo
+                                </a>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="articulo.html">Articulos</a></li>
-                    <li><a href="http://webs.ucm.es/BUCM/escritores/pedro_gonzalez_moreno/">Blog</a>
-
-                    <li><a href="">Contacto</a></li>
+                    <li class="section-header__item">
+                        <a class="section-header__link" href="articulo.html">
+                            Articulos
+                        </a>
+                    </li>
+                    <li class="section-header__item">
+                        <a class="section-header__link"
+                            href="http://webs.ucm.es/BUCM/escritores/pedro_gonzalez_moreno/">
+                            Blog
+                        </a>
+                    <li class="section-header__item">
+                        <a class="section-header__link" href="">
+                            Contacto
+                        </a>
+                    </li>
                 </ul>
             </div>
-
-
     </header>
     <div class="main">
         <h1>Artículos</h1>
@@ -157,7 +186,7 @@
     <footer class="section-footer">
         <div class="footer">
             <a class="footer__link" href="#">Enlace de interes</a>
-            <img class="footer__img" src="img/nose.jpg"></img>
+            <!-- <img class="footer__img" src="img/nose.jpg"></img> -->
             <a class="footer__link" href="#">Enlace de interes</a>
         </div>
     </footer>

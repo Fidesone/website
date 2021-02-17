@@ -9,14 +9,14 @@
 }
 
 .section-header__img-box {
-	height: 15rem;
+	height: 5rem; 
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 }
 
 .section-header__img {
-	width: 40%;
+	width: 20%;
 	margin-right: 4rem;
 }
 
