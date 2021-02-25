@@ -1,8 +1,13 @@
+.section-footer{
+display: absolute;
+
+}
 .footer {
     height: 100%;
     width: 100%;
     background-color: rgb(46, 127, 129);
-    display: flex;
+    display: absolute;
+    
     justify-content: space-around;
     align-items: center;
     /* background-image: url("../img/castillo-calatrava-viejo.jpg");

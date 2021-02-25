@@ -1,25 +1,25 @@
-
-.dos{
+.uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uno > p {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
     background-color: #fff; 
     width: 60%;
-    height: 40%;
     margin-top: 100px;
-    margin-left: 30%;
+     margin-left: 20px;  
     border:ridge;
     background-size: cover;
     text-align: justify;
+    word-wrap: break-word;
     
     
 }
-.uno{
-    float: left;
-    margin-top: 13%;
-    margin-left: 10%;
-}
+
 
 div.tres{
    width: 100%;
@@ -34,26 +34,37 @@ div.tres{
 div.tres img{
     max-width: 100%; 
 }
-.foot{
-    
-    padding-top: 30px;
-    display: flex;
-   
 
-    
-    
-}
-div.foot a{
-    color:whitesmoke;
-    padding-left: 20%;
-}
+
+
 #icon{
     margin-left: 16%;
     width: 15%;
     height: 30%;
 }
 
-
+@media only screen and (max-width: 800px){
+    
+    
+    .uno{
+        /* background-color: rgb(59, 165, 165); */
+        display: block; 
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .uno > img{
+        
+        margin-top: 50px;
+        margin-left: 200px;
+        
+    }
+    .uno > p{
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+} 
 
 
 
