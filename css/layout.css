@@ -8,8 +8,16 @@
     width: 100vw;
     height: 12rem;
 }
+.main-article{
+    background-color: thistle;
+}
 
+.main-book{
+    background-color: thistle;
+
+}
 .main {
     background-image: url("../img/castillo-calatrava-viejo.jpg");
     background-size: cover;
 }
+

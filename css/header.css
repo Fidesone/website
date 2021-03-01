@@ -9,15 +9,20 @@
 }
 
 .section-header__img-box {
-	height: 5rem; 
+	margin-top: 10px;
+	height: 4rem; 
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content:space-evenly;
 }
 
 .section-header__img {
+	margin-top: 10px;
 	width: 20%;
 	margin-right: 4rem;
+}
+.heading-1{
+	margin-top: 20px;
 }
 
 /* Header navbar */
