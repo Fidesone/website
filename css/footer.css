@@ -7,8 +7,7 @@ display: absolute;
     width: 100%;
     background-color: rgb(46, 127, 129);
     display: flex;
-    
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     /* background-image: url("../img/castillo-calatrava-viejo.jpg");
     background-size: cover; */

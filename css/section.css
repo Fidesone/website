@@ -1,4 +1,9 @@
-
+.separador{
+    color: white;
+    border-bottom: solid;
+    padding-top: 20px;
+    margin-left: 50px;
+}
 .uno{
     display: flex;
     align-items: center;
