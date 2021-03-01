@@ -1,13 +1,8 @@
-.main {
-    background-color: rgb(190, 181, 181);
-    height: 100vh;
-    
-    
-    
-}
-.main h1 {
-    border-bottom-style: solid;
-    margin-left: 5%;
+
+.main-book >  h1{
+    padding-top: 20px;
+    margin-left: 20px;
+    border-bottom: solid black;
 }
 
 .libro{

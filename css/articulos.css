@@ -1,4 +1,8 @@
-
+.main-article > h1{
+    padding-top: 20px;
+    margin-left: 20px;
+    border-bottom: solid black;
+}
 .articulos {
     margin-top: 20px;
     margin-bottom: 20px;
