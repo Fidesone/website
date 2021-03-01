@@ -1,5 +1,8 @@
 /* Navbar component */
 /* Header, logo y titulo */
+.heading-1{
+	font-family: 'Roboto', sans-serif;
+}
 .section-header {
 	width: 100%;
 	display: flex;
@@ -9,7 +12,7 @@
 }
 
 .section-header__img-box {
-	margin-top: 30px;
+	margin-top: 40px;
 	height: 4rem; 
 	display: flex;
 	align-items: center;
