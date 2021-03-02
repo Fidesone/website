@@ -1,0 +1,10 @@
+
+ #go-top{
+     display: inline-block;
+    background-color: blueviolet;
+    font-size: 40px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} 
