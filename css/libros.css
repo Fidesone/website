@@ -65,14 +65,27 @@
     justify-content: space-between;
 }
 
+.container_oretania{
+    width: 100%;
+    display: flex;
+    /* background-color: thistle; */
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 450px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
 .oretania{
+    background-color: tomato;
     color: white;
     display:flex;
     text-decoration: none;
-    background-color:tomato;
-    margin-left: 500px;
-    margin-right: 150px;
-    margin-bottom: 20px;
-    margin-top: -40px;
+    
     cursor: pointer;
+}
+.container_oretania > i{
+    background-color: tomato;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 3px;
 }
