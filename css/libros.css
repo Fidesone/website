@@ -68,24 +68,23 @@
 .container_oretania{
     width: 100%;
     display: flex;
-    /* background-color: thistle; */
     align-items: flex-end;
-    justify-content: center;
-    padding-left: 450px;
-    margin-top: -40px;
+    justify-content: flex-end;
     margin-bottom: 20px;
 }
 .oretania{
-    background-color: tomato;
+    background-color:  rgb(114, 186, 187);
     color: white;
     display:flex;
-    text-decoration: none;
-    
+    text-decoration: none; 
     cursor: pointer;
+    overflow: hidden;
+    
 }
 .container_oretania > i{
-    background-color: tomato;
+    background-color:  rgb(114, 186, 187);
     cursor: pointer;
     font-size: 18px;
     padding-left: 3px;
+    overflow: hidden;
 }

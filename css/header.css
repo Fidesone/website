@@ -8,22 +8,20 @@
 	display: flex;
 	justify-content: space-between;
 	flex: 1;
-	background-color: rgb(46, 127, 129);
+	background-color: rgb(114, 186, 187);
 }
 
 .section-header__img-box {
-	margin-top: 40px;
-	height: 4rem; 
+	margin: auto;
+	/* height: 4rem;  */
+	/* background-color: hotpink; */
 	display: flex;
 	align-items: center;
-	justify-content:space-evenly;
+	justify-content:center;
+	
 }
 
-.section-header__img {
-	margin-top: 10px;
-	width: 20%;
-	margin-right: 4rem;
-}
+
 .heading-1{
 	margin-top: 20px;
 }

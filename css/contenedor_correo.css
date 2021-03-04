@@ -1,0 +1,12 @@
+.contenedor_correo{
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_correo > p{
+    margin-top: 20px;
+    background-color: turquoise;
+}

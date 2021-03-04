@@ -1,81 +1,88 @@
 <html lang="es">
 
-<head>
-    <title>Bibliografia</title>
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/section.css">
-    <link rel="stylesheet" type="text/css" href="css/libros.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/articulos.css">
-    <link rel="icon" type="image/png" href="img/higuera.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-
-<body>
+    <head>
+        <title>Bibliografía</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/section.css">
+        <link rel="stylesheet" type="text/css" href="css/libros.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/articulos.css">
+        <link rel="icon" type="image/png" href="img/higuera.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/bottom.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/go_top.js"></script>
+    </head>
     
-    <header class="header">
-        <div class="section-header">
-            <div class="section-header__img-box">
-                <img class="section-header__img" src="img/higuera.png"></img>
-                <h1 class="heading-1">Pedro Antonio González Moreno</h1>
-            </div>
-            <div class="section-header__navbar">
-                <ul class="section-header__items">
-                    <li class="section-header__item">
-                        <a class="section-header__link" href="index.html">
-                            Biografia
-                        </a>
-                    </li>
-                    <li class="section-header__item section-header__item--submenu">
-                        <a class="section-header__link" href="libros.html">
-                            Libros
-                        </a>
-                        <ul class="section-header__items section-header__items--dropwdown">
-                            <li class="section-header__item section-header__item--dropdown">
-                                <a class="section-header__link" href="libros.html#poesia">
-                                    Poesia
-                                </a>
-                            </li>
-                            <li class="section-header__item section-header__item--dropdown">
-                                <a class="section-header__link" href="libros.html#novela">
-                                    Novela
-                                </a>
-                            </li>
-                            <li class="section-header__item section-header__item--dropdown">
-                                <a class="section-header__link" href="libros.html#viajes">
-                                    Libro de viajes
-                                </a>
-                            </li>
-                            <li class="section-header__item section-header__item--dropdown">
-                                <a class="section-header__link" href="libros.html#ensayo">
-                                    Ensayo
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="section-header__item">
-                        <a class="section-header__link" href="articulo.html">
-                            Articulos
-                        </a>
-                    </li>
-                    <li class="section-header__item">
-                        <a class="section-header__link"
-                            href="http://webs.ucm.es/BUCM/escritores/pedro_gonzalez_moreno/">
-                            Blog
-                        </a>
-                        <li class="section-header__item section-header__item--submenu">
-                            <a class="section-header__link" href="contacto.html">
-                                Contacto
+    <body>
+        <span  id='go-top' class= "fas fa-chevron-circle-up"></span>
+        <header class="header">
+            <div class="section-header">
+                <div class="section-header__img-box">
+                    <img class="section-header__img" src="img/Logo_oficial.png"  > </img>
+                    
+                </div>
+                <div class="section-header__navbar">
+                    <ul class="section-header__items">
+                        <li class="section-header__item">
+                            <a class="section-header__link" href="index.html">
+                                Biografía
                             </a>
-                            
                         </li>
-                </ul>
-            </div>
-    </header>
+                        <li class="section-header__item section-header__item--submenu">
+                            <div>
+                            <a class="section-header__link" href="libros.html">
+                                Libros
+                            </a>
+                            <i  id='arrow_book' class="fas fa-sort-down"></i>
+                            </div>
+                            <ul class="section-header__items section-header__items--dropwdown">
+                                <li class="section-header__item section-header__item--dropdown">
+                                    <a class="section-header__link" href="libros.html#poesia">
+                                        Poesía
+                                    </a>
+                                </li>
+                                <li class="section-header__item section-header__item--dropdown">
+                                    <a class="section-header__link" href="libros.html#novela">
+                                        Novela
+                                    </a>
+                                </li>
+                                <li class="section-header__item section-header__item--dropdown">
+                                    <a class="section-header__link" href="libros.html#viajes">
+                                        Libro de viajes
+                                    </a>
+                                </li>
+                                <li class="section-header__item section-header__item--dropdown">
+                                    <a class="section-header__link" href="libros.html#ensayo">
+                                        Ensayo
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="section-header__item">
+                            <a class="section-header__link" href="articulo.html">
+                                Artículos
+                            </a>
+                        </li>
+                        <li class="section-header__item">
+                            <a class="section-header__link"
+                                href="http://webs.ucm.es/BUCM/escritores/pedro_gonzalez_moreno/">
+                                Blog
+                            </a>
+                            <li class="section-header__item section-header__item--submenu">
+                                <a class="section-header__link" href="contacto.html">
+                                    Contacto
+                                </a>
+                                
+                            </li>
+                    </ul>
+                </div>
+        </header>
 
 
 
