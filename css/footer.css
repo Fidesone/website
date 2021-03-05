@@ -3,7 +3,7 @@ display: absolute;
 
 }
 .footer {
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: rgb(114, 186, 187);
     display: flex;
@@ -31,4 +31,16 @@ display: absolute;
 
 .footer__img {
     width: 25%;
+}
+.github{
+    font-size: 25px;
+}
+.github:active{
+    color: black;
+}
+.github:link{
+    color: black;
+}
+.github:visited{
+    color: black;
 }

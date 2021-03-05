@@ -1,0 +1,19 @@
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footer1 > a {
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+.footer1 > a:link{
+    color: white;
+}
+.footer1 > a:visited{
+    color: white;
+}
