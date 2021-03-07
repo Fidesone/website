@@ -94,11 +94,11 @@ cursor: pointer;
     
 }
 .content_link > a:link{
-    color:blue;
+    color:rgb(92, 92, 143);
 
 }
 .content_link > a:visited{
-    color:blue;
+    color:rgb(56, 56, 197);
 }
 .content_link > i{
     color: grey; 
@@ -108,5 +108,13 @@ cursor: pointer;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
+}
+.link-articulo:hover{
+    color: burlywood;
+    background-color: rgb(161, 212, 212);
+
+}
+.content_link:hover{
+    color: white;
 }
 

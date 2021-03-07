@@ -14,6 +14,7 @@ display: absolute;
 }
 
 .footer__link,
+
 .footer__link:active {
     padding-top: 20px;
     color: black;
@@ -26,7 +27,9 @@ display: absolute;
 }
 
 .footer__link:hover {
-    background-color: rgb(114, 186, 187);
+    color: white;
+    background-color: rgb(69, 128, 129) ;
+    border-bottom: white;
 }
 
 .footer__img {
