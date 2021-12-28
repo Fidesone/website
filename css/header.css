@@ -108,6 +108,9 @@
 		
 
 	}
+	body{
+		width: 100vw;
+	}
 	.texto_bio{
 		margin-top: 20px;
     	background-color: rgb(216, 205, 205); 
@@ -258,7 +261,7 @@
 		visibility: hidden;
 	}
 } */
-@media only screen and (max-width: 375px){
+/*@media only screen and (max-width: 375px){
 	.separador{
 		margin-bottom: 20px;
 		
@@ -269,8 +272,8 @@
 		
 		
 	}
-}
-@media only screen and (max-width: 425px){
+}*/
+/*@media only screen and (max-width: 425px){
 	.separador{
 		margin-bottom: 20px;
 		
@@ -281,7 +284,7 @@
 		
 		
 	}
-}
+}*/
 @media only screen and (max-width: 800px) {
 	.section-header {
 		display: flex;
