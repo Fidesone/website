@@ -110,15 +110,15 @@
 		justify-content: flex-end;
 	}
 	.section-header__item{
-		margin: 5%;
+		margin: 4%;
 	}
 	body{
 		width: 100vw;
 	}
 
 	 .uno > p{
-		width: 120%;
-    	margin-right: 50px;
+		width: 110%;
+    	margin-right: 40px;
     	border:ridge;
     	background-size: cover;
     	text-align: justify;
@@ -143,7 +143,8 @@
 	#bio{
 		margin-top: 10px;
 		margin:auto;
-		margin-left: 50px;
+		margin-left: 10px;
+		
 	}
 	
 	.section-header__item{	
