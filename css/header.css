@@ -63,7 +63,7 @@
 }
 
 .section-header__item:hover {
-	background-color: rgb(56, 155, 156, 0.8);
+	background-color: rgb(46, 127, 129);
 }
 
 .section-header__link,
@@ -111,20 +111,19 @@
 	body{
 		width: 100vw;
 	}
-	.texto_bio{
-		margin-top: 20px;
-    	background-color: rgb(216, 205, 205); 
-		opacity: 0,5 ;
-    	width: 100%;
-    	margin-left: 15px;  
+
+	.uno > p{
+		width: 100%;
+    	margin-right: 50px;
     	border:ridge;
     	background-size: cover;
     	text-align: justify;
     	word-wrap: break-word;
     	border-radius: 15px;
     	box-shadow: 0 10px 10px -6px black;
+		
 	}
-	.texto_bio > p{
+	.p{
 		margin: 15px;
 	}
 	.uno{
@@ -135,17 +134,14 @@
 
 	}
 	.separador{
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	#bio{
 		margin-top: 10px;
 		margin:auto;
-		margin-left: 20px;
+		margin-left: 50px;
 	}
-	.p{
-		margin:10px;
-		
-	}
+	
 	.section-header__item{
 		
 		font-size: small;
@@ -298,7 +294,7 @@
 		width: 70%;
 		
 	}
-	.texto_bio {
+	.uno > p {
 		background-color: rgb(216, 205, 205); 
 		width: 90%;
 		margin-top: 20px;
@@ -312,7 +308,7 @@
 		
 		
 	}
-	.texto_bio > p{
+	.uno > p{
 		margin: 15px;
 	}
 	.section-header__navbar {
@@ -373,7 +369,7 @@
 		margin: 15px;
 	}
 
-	.texto_bio {
+	.uno > p {
 		background-color: rgb(216, 205, 205); 
 		width: 90%;
 		margin-top: 20px;
@@ -387,7 +383,7 @@
 		
 		
 	}
-	.texto_bio > p{
+	.uno > p{
 		margin: 15px;
 	}
 	.footer{
@@ -402,7 +398,7 @@
 		
 		
 	}
-	.texto_bio {
+	.uno > p {
 		background-color: rgb(216, 205, 205); 
 		width: 90%;
 		margin-top: 20px;
@@ -417,7 +413,7 @@
 		
 		
 	}
-	.texto_bio > p{
+	.uno > p{
 		margin: 15px;
 	}
 }
