@@ -17,6 +17,7 @@ html {
     Es una unidad relativa asi que hace que la letra sea responsive al tamaño de letra
     cuando se hace zooms por ejemplo.
     */
+    
     font-size: 62.5%;
 }
 
@@ -29,7 +30,17 @@ body {
     box-sizing: border-box;
     display: relative;
     flex-direction: column;
+    
 }
+.main{
+    display: flex;
+   
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 
 
 

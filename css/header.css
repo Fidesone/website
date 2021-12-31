@@ -273,6 +273,9 @@
 
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
+	.main{
+		height: 70vh;
+	}
 	.section-header {
 		display: flex;
 		flex-direction:row;
@@ -398,6 +401,9 @@
 	
 }
 @media screen and (min-width: 1025px) and (max-width: 3000px){
+	.main{
+		height: 70vh;
+	}
 	.section-header__img{
 		width: 100%;
 		height: auto;
