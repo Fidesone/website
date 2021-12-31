@@ -3,6 +3,7 @@ display: absolute;
 
 }
 .footer {
+    position: relative;
     height: auto;
     width: 100%;
     background-color: rgb(114, 186, 187);

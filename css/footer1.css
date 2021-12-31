@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    position: relative;
 }
 .footer1 > a {
     font-size: 25px;
