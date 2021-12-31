@@ -21,6 +21,9 @@ html {
 }
 
 body {
+    height: 100vh;
+    background-image: url("../img/castillo-calatrava-viejo.jpg");
+    background-size: cover;
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
     box-sizing: border-box;
