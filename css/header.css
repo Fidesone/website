@@ -103,6 +103,10 @@
 		
 
 	}
+	.poesia{
+		position:relative;
+		display:none;
+	}
 	.section-header__navbar {
 		margin:auto;
 		display: flex;
