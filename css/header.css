@@ -95,7 +95,7 @@
 /* Media query */
 @media screen and (min-width: 310px) and (max-width: 500px){
 	.section-header{
-		width: 90%;
+	/*	width: 90%;*/
 		height:auto ;
 		flex-direction:column;
 		justify-content:center;

@@ -118,3 +118,19 @@ cursor: pointer;
     color: white;
 }
 
+@media (max-width: 500px) {
+    .articulos {
+      flex-direction: column;
+    }
+    
+    .poesia {
+      margin: 0;
+      width: 100%;
+    }
+    
+    .box-text {
+      width: 100%;
+      margin: 20px;
+    }
+  }
+  
