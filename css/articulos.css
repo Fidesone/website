@@ -119,6 +119,25 @@ cursor: pointer;
 }
 
 @media (max-width: 500px) {
+
+.content_header{
+    margin-top: 20px;
+    display: table-row;
+    align-content:flex-end;
+    justify-content:space-between;
+ 
+}
+.redes{
+        display: flex;
+        align-items:flex-start;
+        justify-content:flex-start ; 
+        font-size: 20px;
+        margin-bottom: 15px;  
+    
+}
+
+    
+
     .articulos {
       flex-direction: column;
     }
