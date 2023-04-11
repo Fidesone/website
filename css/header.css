@@ -101,6 +101,9 @@
 		
 
 	}
+	.section-header__items {	
+		width: 65%;	
+	}
 	.section-header__navbar {
 		margin:auto;
 		display: flex;
@@ -116,7 +119,16 @@
 		align-items: center;
 		justify-content: flex-end;
 	}
-	
+	.section-header__items--dropwdown {
+		display: flex;
+		flex-direction:column;
+		height: auto;
+		width: auto;
+		position: absolute;
+		left: 0;
+		background-color: rgb(46, 127, 129);
+		border-radius: 10px;
+	}
 	body{
 		width: 100vw;
 	}
@@ -161,14 +173,9 @@
     text-align: center;
 	}
 	.section-header__item{
-		
 		font-size: small;
-
 		margin-left: 5px;
 		overflow-wrap: normal;
-		
-		
-		
 	}
 	.section-header__link{
 		width: 90%;
